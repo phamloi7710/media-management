@@ -1,0 +1,28 @@
+{
+    "name": "loipham/media",
+    "description": "A Media Manager For Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Loi Pham",
+            "email": "phamloi7710@gmail.com"
+        }
+    ],
+    "require": {
+        "maennchen/zipstream-php": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LoiPham\\Media\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LoiPham\\Media\\MediaServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
